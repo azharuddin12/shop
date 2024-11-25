@@ -1,0 +1,15 @@
+.customer-reviews h1{
+  text-align: center;
+  margin: 2em 0;
+}
+
+.customer-reviews .reviews-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}
+
+.reviews-section *{
+  flex: 1;
+}

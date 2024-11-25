@@ -1,0 +1,88 @@
+header{
+  padding: 2em 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgb(256, 256, 256);
+  z-index: 100;
+}
+
+header a:hover{
+  opacity: 0.75;
+}
+
+header a:active{
+  opacity: 0.45;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .middle-section{
+  flex: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+header .middle-section input{
+  background-color: #F0F0F0;
+
+  border: none;
+  border-radius: 25px;
+
+  padding: 0.45em 0.45em 0.45em 3.5em;
+
+  width: 75%;
+
+  position: relative;
+}
+
+header .middle-section img{
+  position: absolute;
+
+  left: 14.5%;
+  top: 0.6em;
+
+  width: 2.5rem;
+}
+
+header .right-section img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+header .profile-icon{
+  border-radius: 100%;
+}
+
+header .right-section a:last-of-type{
+  margin-left: 2.5em;
+}
+
+header .right-section{
+  position: relative;
+}
+
+header .right-section .cart-length{
+  color: #FFFFFF;
+  background-color: #d70808;
+  
+  width: 3rem;
+  padding: 0.25em;
+  scale: 0.7;
+  
+  text-align: center;
+  border-radius: 50%;
+
+  position: absolute;
+  left: -2%;
+  top: -80%;
+}

@@ -1,0 +1,92 @@
+form .title{
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+form .field + .title{  
+  margin-top: 3em;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.20);
+  padding-top: 1em;
+}
+
+form .field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 0 2em;
+}
+
+form input[type=file]{
+  width: 100%;
+}
+
+form .field + .field{
+  margin-top: 1.5em;
+}
+
+form .radio{
+  justify-content: space-between;
+}
+
+form .radio-options{
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2;
+  flex-wrap: wrap;
+
+  text-transform: capitalize;
+}
+
+form input{
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  border-radius: 1em;
+  padding: 0.45em 0 0.45em 0.45em;
+  flex: 2;
+}
+
+form label{
+  margin-right: 1em;
+  flex: 0.5;
+}
+
+form button{
+  border-radius: 25px;
+  padding: 0.5em 4em;
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.input-error{
+  border: 2px solid red;
+}
+
+.radio-error{
+  border: 2px solid red;
+  padding: 0.7em;
+  border-radius: 15px;
+}
+
+.error-message{
+  color: red;
+  font-size: 1.45rem;
+  text-transform: capitalize;
+  margin-left: 26%;
+  margin-bottom: .5em;
+}
+
+@media (max-width: 590px){
+  form .field{
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+  
+  .error-message{
+    text-align: center;
+    margin-left: 0;
+  }
+}

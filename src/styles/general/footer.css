@@ -1,0 +1,82 @@
+footer{
+  background-color: #F2F0F1;
+  padding-top: 6em;
+  margin-top: 6em;
+}
+
+footer .container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  max-width: 120rem;
+  padding: 0 2em;
+}
+
+footer .container *{
+  flex: 1;
+}
+
+footer .left-section .icons,
+footer .bottom-section .icons{
+  cursor: pointer;
+}
+
+footer .left-section{
+  flex: 2;
+}
+
+footer .left-section .icons img{
+  width: 2.7rem;
+}
+
+footer .icons img + img{
+  margin-left: 1em;
+}
+
+footer .left-section p{
+  margin: 1em 0;
+}
+
+footer .bottom-section.container{
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.20);
+  margin-top: 6em;
+  padding: 2em;
+}
+
+footer .bottom-section p{
+  flex: 2;
+}
+
+footer .bottom-section .icons{
+  flex: 1.4;
+}
+
+footer .bottom-section .icons img{
+  width: 6rem;
+}
+
+@media (max-width: 700px) {
+  footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  footer .container{
+    display: block;
+  }
+
+  footer .container .left-section{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+  }
+
+  footer .container .links + .links{
+    margin-top: 3em;
+  }
+}

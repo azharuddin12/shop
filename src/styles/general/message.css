@@ -1,0 +1,22 @@
+.message{
+  position: fixed;
+  top: -50%;
+  left: 0;
+  right: 0;
+  
+  margin: 0 auto;
+
+  width: fit-content;
+  padding: 2em 4em;
+  
+  border-radius: 50px;
+  z-index: 1000;
+
+  background-color: green;
+
+  transition: all ease-in-out 300ms;
+}
+
+.message p{
+  color: white;
+}

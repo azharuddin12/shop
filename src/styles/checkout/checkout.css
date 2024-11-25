@@ -1,0 +1,17 @@
+.checkout{
+  margin-top: 11em;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 3em;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1060px) {
+  .checkout{
+    flex-direction: column;
+  }
+}

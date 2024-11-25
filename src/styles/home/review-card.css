@@ -1,0 +1,19 @@
+.review-card *{
+  margin-top: 0.35em;
+}
+
+.review-card{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+
+  border-radius: 25px;
+  padding: 2em;
+  min-width: 25rem;
+}
+
+.review-card .name{
+  font-weight: 700;
+}
+
+.review-card .content{
+  color: rgb(53, 53, 53);
+}

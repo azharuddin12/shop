@@ -1,0 +1,54 @@
+.top-selling h1,
+.new-arrivals h1{
+  text-align: center;
+  margin: 2em 0;
+}
+
+.products{
+  display: grid;
+
+  grid-template-columns: repeat(4, 30rem);
+  gap: 3em;
+
+  justify-content: center;
+}
+
+.top-selling .to-center,
+.new-arrivals .to-center{
+  text-align: center;
+}
+
+.top-selling button,
+.new-arrivals button{
+  margin: 2em 0;
+  padding: 0.7em 4em;
+
+  border-radius: 25px;
+
+  background-color: #F2F0F1;
+  color: #000000;
+}
+
+@media (max-width: 1310px) {
+  .products{
+    grid-template-columns: repeat(2, 30rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .products{
+    grid-template-columns: repeat(2, 25rem);
+  }
+}
+
+@media (max-width: 530px) {
+  .products{
+    grid-template-columns: repeat(2, 20rem);
+  }
+}
+
+@media (max-width: 430px) {
+  .products{
+    grid-template-columns: repeat(1, 25rem);
+  }
+}

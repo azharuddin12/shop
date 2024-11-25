@@ -1,0 +1,22 @@
+.view-cart{
+  padding-top: 6em;
+}
+
+.view-cart > h1{
+  text-align: center;
+  margin: 2em 0;
+}
+
+.view-cart .wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 3em;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.view-cart .wrapper .cart-items .cart-card{
+  margin-bottom: 2em;
+}

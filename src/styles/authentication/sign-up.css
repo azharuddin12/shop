@@ -1,0 +1,29 @@
+.sign-up-wrapper{
+  padding: 5rem 0;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-form h1{
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+.sign-up-form{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+
+  border-radius: 25px;
+  padding: 2em;
+  flex: 1.5;
+
+  max-width: 600px;
+}
+
+.sign-up-form img{
+  width: 6.5rem;
+  scale: 1;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2.5em;
+}

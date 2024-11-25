@@ -1,0 +1,14 @@
+.rating{
+  display: flex;
+  width: 100%;
+  flex-shrink: none;
+  gap: 1em;
+}
+
+.rating .stars img{
+  width: 2rem;
+}
+
+.rating p{
+  font-size: 1.4rem;
+}
